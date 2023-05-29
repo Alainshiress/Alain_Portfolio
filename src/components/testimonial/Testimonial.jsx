@@ -1,5 +1,5 @@
 import React from "react";
-import "./testimonials.css";
+import "./testimonial.css";
 import IMG from "../../assets/we.JPG";
 import AV1 from "../../assets/we1.JPG";
 import AV2 from "../../assets/we2.JPG";
