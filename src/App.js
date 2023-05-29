@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './index.css';
 import Header from './components/header/Header'
 import Navbar from './components/navbar/Navbar'
 import About from './components/about/About'
@@ -12,7 +12,7 @@ import Footer from './components/footer/Footer'
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
       <Navbar />
       <About />
@@ -22,7 +22,7 @@ function App() {
       <Testimonial />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 export default App;
